@@ -1,0 +1,7 @@
+[console_scripts]
+image_caption_node = volcano_ark_ros.image_caption_node:main
+image_publisher_node = volcano_ark_ros.image_publisher_node:main
+originman_action_node = volcano_ark_ros.originman_action_node:main
+text_to_speech_node = volcano_ark_ros.text_to_speech_node:main
+web_interface_node = volcano_ark_ros.web_interface_node:main
+

@@ -1,0 +1,31 @@
+[7.153s] Invoking command in '/root/colcon_ws/src/volcano_ark_ros': PYTHONPATH=/root/colcon_ws/build/volcano_ark_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/volcano_ark_ros build --build-base /root/colcon_ws/build/volcano_ark_ros/build install --record /root/colcon_ws/build/volcano_ark_ros/install.log --single-version-externally-managed install_data
+[8.848s] running egg_info
+[8.855s] writing ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/PKG-INFO
+[8.857s] writing dependency_links to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/dependency_links.txt
+[8.858s] writing entry points to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/entry_points.txt
+[8.858s] writing requirements to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/requires.txt
+[8.859s] writing top-level names to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/top_level.txt
+[8.876s] reading manifest file '../../build/volcano_ark_ros/volcano_ark_ros.egg-info/SOURCES.txt'
+[8.882s] writing manifest file '../../build/volcano_ark_ros/volcano_ark_ros.egg-info/SOURCES.txt'
+[8.882s] running build
+[8.883s] running build_py
+[8.883s] copying volcano_ark_ros/web_interface_node.py -> /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros
+[8.887s] copying volcano_ark_ros/originman_action_node.py -> /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros
+[8.889s] running install
+[8.891s] running install_lib
+[8.896s] copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/web_interface_node.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros
+[8.897s] copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/originman_action_node.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros
+[8.901s] byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/web_interface_node.py to web_interface_node.cpython-310.pyc
+[8.924s] byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/originman_action_node.py to originman_action_node.cpython-310.pyc
+[8.943s] running install_data
+[8.943s] running install_egg_info
+[8.953s] removing '/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[8.954s] Copying ../../build/volcano_ark_ros/volcano_ark_ros.egg-info to /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros-0.0.0-py3.10.egg-info
+[8.959s] running install_scripts
+[9.087s] Installing image_caption_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+[9.088s] Installing image_publisher_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+[9.089s] Installing originman_action_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+[9.090s] Installing text_to_speech_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+[9.090s] Installing web_interface_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+[9.092s] writing list of installed files to '/root/colcon_ws/build/volcano_ark_ros/install.log'
+[9.309s] Invoked command in '/root/colcon_ws/src/volcano_ark_ros' returned '0': PYTHONPATH=/root/colcon_ws/build/volcano_ark_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/volcano_ark_ros build --build-base /root/colcon_ws/build/volcano_ark_ros/build install --record /root/colcon_ws/build/volcano_ark_ros/install.log --single-version-externally-managed install_data

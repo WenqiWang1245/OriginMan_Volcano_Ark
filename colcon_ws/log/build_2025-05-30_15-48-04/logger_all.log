@@ -1,0 +1,144 @@
+[2.010s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.010s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], bazel_args=None, bazel_task=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, meson_args=[], ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_alias.argument_parser.alias.AliasArgumentDecorator object at 0xffffa5f8e740>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa5f8d570>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa5f8d570>>, mixin_verb=('build',))
+[3.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.556s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/colcon_ws'
+[3.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['bazel', 'cmake', 'meson', 'python']
+[3.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'bazel'
+[3.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'meson'
+[3.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.579s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.580s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.580s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.581s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.582s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.582s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.583s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.583s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.584s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['bazel', 'cmake', 'meson', 'python']
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'bazel'
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'meson'
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/volcano_ark_ros) by extensions ['ignore', 'ignore_ament_install']
+[3.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/volcano_ark_ros) by extension 'ignore'
+[3.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/volcano_ark_ros) by extension 'ignore_ament_install'
+[3.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/volcano_ark_ros) by extensions ['colcon_pkg']
+[3.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/volcano_ark_ros) by extension 'colcon_pkg'
+[3.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/volcano_ark_ros) by extensions ['colcon_meta']
+[3.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/volcano_ark_ros) by extension 'colcon_meta'
+[3.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/volcano_ark_ros) by extensions ['ros']
+[3.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/volcano_ark_ros) by extension 'ros'
+[3.607s] DEBUG:colcon.colcon_core.package_identification:Package 'src/volcano_ark_ros' with type 'ros.ament_python' and name 'volcano_ark_ros'
+[3.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.743s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /root/colcon_ws/install
+[3.750s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 20 installed packages in /userdata/dev_ws/install
+[3.755s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 54 installed packages in /opt/tros/humble
+[3.766s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 187 installed packages in /opt/ros/humble
+[3.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.078s] Level 5:colcon.colcon_core.verb:set package 'volcano_ark_ros' build argument 'bazel_args' from command line to 'None'
+[4.078s] Level 5:colcon.colcon_core.verb:set package 'volcano_ark_ros' build argument 'bazel_task' from command line to 'None'
+[4.078s] Level 5:colcon.colcon_core.verb:set package 'volcano_ark_ros' build argument 'cmake_args' from command line to 'None'
+[4.079s] Level 5:colcon.colcon_core.verb:set package 'volcano_ark_ros' build argument 'cmake_target' from command line to 'None'
+[4.079s] Level 5:colcon.colcon_core.verb:set package 'volcano_ark_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.079s] Level 5:colcon.colcon_core.verb:set package 'volcano_ark_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[4.079s] Level 5:colcon.colcon_core.verb:set package 'volcano_ark_ros' build argument 'cmake_clean_first' from command line to 'False'
+[4.079s] Level 5:colcon.colcon_core.verb:set package 'volcano_ark_ros' build argument 'cmake_force_configure' from command line to 'False'
+[4.079s] Level 5:colcon.colcon_core.verb:set package 'volcano_ark_ros' build argument 'meson_args' from command line to '[]'
+[4.080s] Level 5:colcon.colcon_core.verb:set package 'volcano_ark_ros' build argument 'ament_cmake_args' from command line to 'None'
+[4.080s] Level 5:colcon.colcon_core.verb:set package 'volcano_ark_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[4.080s] Level 5:colcon.colcon_core.verb:set package 'volcano_ark_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.080s] DEBUG:colcon.colcon_core.verb:Building package 'volcano_ark_ros' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/root/colcon_ws/build/volcano_ark_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/colcon_ws/install/volcano_ark_ros', 'merge_install': False, 'meson_args': [], 'path': '/root/colcon_ws/src/volcano_ark_ros', 'symlink_install': False, 'test_result_base': None}
+[4.081s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.087s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.088s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/colcon_ws/src/volcano_ark_ros' with build type 'ament_python'
+[4.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('volcano_ark_ros', 'ament_prefix_path')
+[4.109s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/colcon_ws/install/volcano_ark_ros/share/volcano_ark_ros/hook/ament_prefix_path.ps1'
+[4.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/colcon_ws/install/volcano_ark_ros/share/volcano_ark_ros/hook/ament_prefix_path.dsv'
+[4.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/colcon_ws/install/volcano_ark_ros/share/volcano_ark_ros/hook/ament_prefix_path.sh'
+[4.124s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Allocated ROS_DOMAIN_ID=20 for '/root/colcon_ws/build/volcano_ark_ros'
+[4.124s] INFO:colcon.colcon_core.shell:Skip shell extension 'ros_domain_id' for command environment: 
+[4.125s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.125s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.833s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/colcon_ws/src/volcano_ark_ros'
+[7.835s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Allocated ROS_DOMAIN_ID=20 for '/root/colcon_ws/build/volcano_ark_ros'
+[7.836s] INFO:colcon.colcon_core.shell:Skip shell extension 'ros_domain_id' for command environment: 
+[7.836s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.836s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/colcon_ws/src/volcano_ark_ros': PYTHONPATH=/root/colcon_ws/build/volcano_ark_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/volcano_ark_ros build --build-base /root/colcon_ws/build/volcano_ark_ros/build install --record /root/colcon_ws/build/volcano_ark_ros/install.log --single-version-externally-managed install_data
+[12.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/colcon_ws/src/volcano_ark_ros' returned '0': PYTHONPATH=/root/colcon_ws/build/volcano_ark_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/volcano_ark_ros build --build-base /root/colcon_ws/build/volcano_ark_ros/build install --record /root/colcon_ws/build/volcano_ark_ros/install.log --single-version-externally-managed install_data
+[13.079s] Level 1:colcon.colcon_core.environment:checking '/root/colcon_ws/install/volcano_ark_ros' for CMake module files
+[13.119s] Level 1:colcon.colcon_core.environment:checking '/root/colcon_ws/install/volcano_ark_ros' for CMake config files
+[13.127s] Level 1:colcon.colcon_core.environment:checking '/root/colcon_ws/install/volcano_ark_ros/lib'
+[13.129s] Level 1:colcon.colcon_core.environment:checking '/root/colcon_ws/install/volcano_ark_ros/bin'
+[13.135s] Level 1:colcon.colcon_core.environment:checking '/root/colcon_ws/install/volcano_ark_ros/lib/pkgconfig/volcano_ark_ros.pc'
+[13.137s] Level 1:colcon.colcon_core.environment:checking '/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages'
+[13.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('volcano_ark_ros', 'pythonpath')
+[13.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/colcon_ws/install/volcano_ark_ros/share/volcano_ark_ros/hook/pythonpath.ps1'
+[13.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/colcon_ws/install/volcano_ark_ros/share/volcano_ark_ros/hook/pythonpath.dsv'
+[13.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/colcon_ws/install/volcano_ark_ros/share/volcano_ark_ros/hook/pythonpath.sh'
+[13.173s] Level 1:colcon.colcon_core.environment:checking '/root/colcon_ws/install/volcano_ark_ros/bin'
+[13.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(volcano_ark_ros)
+[13.176s] INFO:colcon.colcon_core.shell:Creating package script '/root/colcon_ws/install/volcano_ark_ros/share/volcano_ark_ros/package.ps1'
+[13.182s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/colcon_ws/install/volcano_ark_ros/share/volcano_ark_ros/package.dsv'
+[13.186s] INFO:colcon.colcon_core.shell:Creating package script '/root/colcon_ws/install/volcano_ark_ros/share/volcano_ark_ros/package.sh'
+[13.192s] INFO:colcon.colcon_core.shell:Creating package script '/root/colcon_ws/install/volcano_ark_ros/share/volcano_ark_ros/package.bash'
+[13.197s] INFO:colcon.colcon_core.shell:Creating package script '/root/colcon_ws/install/volcano_ark_ros/share/volcano_ark_ros/package.zsh'
+[13.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/colcon_ws/install/volcano_ark_ros/share/colcon-core/packages/volcano_ark_ros)
+[13.204s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.204s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Released ROS_DOMAIN_ID=20 for '/root/colcon_ws/build/volcano_ark_ros'
+[13.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.206s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.206s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.279s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[13.280s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.281s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.296s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[13.301s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.305s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/colcon_ws/install/local_setup.ps1'
+[13.319s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/colcon_ws/install/_local_setup_util_ps1.py'
+[13.331s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/colcon_ws/install/setup.ps1'
+[13.600s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/colcon_ws/install/local_setup.sh'
+[13.607s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/colcon_ws/install/_local_setup_util_sh.py'
+[13.613s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/colcon_ws/install/setup.sh'
+[13.652s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/colcon_ws/install/local_setup.bash'
+[13.656s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/colcon_ws/install/setup.bash'
+[13.669s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/colcon_ws/install/local_setup.zsh'
+[13.673s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/colcon_ws/install/setup.zsh'
+[13.724s] INFO:colcon.colcon_core.shell:Creating '/root/colcon_ws/install/spawn_shell.bash'

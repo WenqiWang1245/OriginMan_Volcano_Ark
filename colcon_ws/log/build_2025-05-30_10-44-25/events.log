@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.001263] (volcano_ark_ros) JobQueued: {'identifier': 'volcano_ark_ros', 'dependencies': OrderedDict()}
+[0.002477] (volcano_ark_ros) JobStarted: {'identifier': 'volcano_ark_ros'}
+[0.098812] (-) TimerEvent: {}
+[0.199591] (-) TimerEvent: {}
+[0.300406] (-) TimerEvent: {}
+[0.401280] (-) TimerEvent: {}
+[0.502144] (-) TimerEvent: {}
+[0.602970] (-) TimerEvent: {}
+[0.703780] (-) TimerEvent: {}
+[0.804634] (-) TimerEvent: {}
+[0.905423] (-) TimerEvent: {}
+[1.006213] (-) TimerEvent: {}
+[1.107079] (-) TimerEvent: {}
+[1.207866] (-) TimerEvent: {}
+[1.308661] (-) TimerEvent: {}
+[1.420859] (-) TimerEvent: {}
+[1.521691] (-) TimerEvent: {}
+[1.622627] (-) TimerEvent: {}
+[1.811622] (-) TimerEvent: {}
+[1.912662] (-) TimerEvent: {}
+[2.013892] (-) TimerEvent: {}
+[2.114945] (-) TimerEvent: {}
+[2.216479] (-) TimerEvent: {}
+[2.337953] (-) TimerEvent: {}
+[2.438878] (-) TimerEvent: {}
+[2.539704] (-) TimerEvent: {}
+[2.640506] (-) TimerEvent: {}
+[2.741300] (-) TimerEvent: {}
+[2.842130] (-) TimerEvent: {}
+[2.943004] (-) TimerEvent: {}
+[3.043869] (-) TimerEvent: {}
+[3.144662] (-) TimerEvent: {}
+[3.245486] (-) TimerEvent: {}
+[3.346312] (-) TimerEvent: {}
+[3.447164] (-) TimerEvent: {}
+[3.547956] (-) TimerEvent: {}
+[3.648768] (-) TimerEvent: {}
+[3.749576] (-) TimerEvent: {}
+[3.850383] (-) TimerEvent: {}
+[3.951176] (-) TimerEvent: {}
+[4.051997] (-) TimerEvent: {}
+[4.152887] (-) TimerEvent: {}
+[4.253782] (-) TimerEvent: {}
+[4.354603] (-) TimerEvent: {}
+[4.455438] (-) TimerEvent: {}
+[4.556250] (-) TimerEvent: {}
+[4.657124] (-) TimerEvent: {}
+[4.758090] (-) TimerEvent: {}
+[4.859057] (-) TimerEvent: {}
+[4.872197] (volcano_ark_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/volcano_ark_ros', 'build', '--build-base', '/root/colcon_ws/build/volcano_ark_ros/build', 'install', '--record', '/root/colcon_ws/build/volcano_ark_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/colcon_ws/src/volcano_ark_ros', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.110.38 5698 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/dev_ws/install/tros_perception_render/lib:/userdata/dev_ws/install/tros_lowpass_filter/lib:/userdata/dev_ws/install/tros_ai_fusion/lib:/userdata/dev_ws/install/tros_ai_fusion_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/root', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'VOLCANO_VISION_MODEL': 'doubao-1.5-vision-pro-250328', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/root/colcon_ws/install:/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'DASHSCOPE_API_KEY': 'sk-429bb21f7f154e09a794898fc347ebe4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/humble/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'CAM_TYPE': 'usb', 'VOLCANO_TEXT_MODEL': 'doubao-1.5-pro-32k-250115', 'XDG_RUNTIME_DIR': '/run/user/0', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/colcon_ws/install/volcano_ark_ros:/userdata/dev_ws/install/tros_perception_render:/userdata/dev_ws/install/tros_lowpass_filter:/userdata/dev_ws/install/tros_ai_fusion:/userdata/dev_ws/install/tros_ai_fusion_msgs:/userdata/dev_ws/install/pre_rdk_install:/userdata/dev_ws/install/originman_transport_lab:/userdata/dev_ws/install/originman_teleop_keyboard:/userdata/dev_ws/install/originman_llm_chat:/userdata/dev_ws/install/originman_line_follower:/userdata/dev_ws/install/originman_kick_ball:/userdata/dev_ws/install/originman_demo:/userdata/dev_ws/install/originman_color_detect:/userdata/dev_ws/install/originman_audio_control:/userdata/dev_ws/install/originman_apriltag_detect:/userdata/dev_ws/install/originman_action_imitation:/userdata/dev_ws/install/hand_gesture_detection:/userdata/dev_ws/install/hand_lmk_detection:/userdata/dev_ws/install/face_landmarks_detection:/userdata/dev_ws/install/face_age_detection:/opt/tros/humble:/opt/ros/humble', 'ROS_DOMAIN_ID': '59', 'SHELL': '/bin/bash', 'ARK_API_KEY': '29fff494-614f-4a7e-9a6f-9396f2f077d9', 'PWD': '/root/colcon_ws/build/volcano_ark_ros', 'SSH_CONNECTION': '192.168.110.38 5698 192.168.110.99 22', 'PYTHONPATH': '/root/colcon_ws/build/volcano_ark_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages:/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages:/userdata/dev_ws/install/tros_ai_fusion_msgs/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/originman_transport_lab/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_teleop_keyboard/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_llm_chat/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_line_follower/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_kick_ball/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_demo/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_color_detect/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_audio_control/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_apriltag_detect/lib/python3.10/site-packages:/userdata/dev_ws/install/hiwonder/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/dev_ws/install/tros_perception_render:/userdata/dev_ws/install/tros_lowpass_filter:/userdata/dev_ws/install/tros_ai_fusion:/userdata/dev_ws/install/tros_ai_fusion_msgs:/userdata/dev_ws/install/pre_rdk_install:/userdata/dev_ws/install/originman_action_imitation:/userdata/dev_ws/install/hand_gesture_detection:/userdata/dev_ws/install/hand_lmk_detection:/userdata/dev_ws/install/face_landmarks_detection:/userdata/dev_ws/install/face_age_detection'}, 'shell': False}
+[4.959253] (-) TimerEvent: {}
+[5.060057] (-) TimerEvent: {}
+[5.160857] (-) TimerEvent: {}
+[5.261703] (-) TimerEvent: {}
+[5.362531] (-) TimerEvent: {}
+[5.463379] (-) TimerEvent: {}
+[5.564234] (-) TimerEvent: {}
+[5.665024] (-) TimerEvent: {}
+[5.765836] (-) TimerEvent: {}
+[5.866678] (-) TimerEvent: {}
+[5.967467] (-) TimerEvent: {}
+[6.068240] (-) TimerEvent: {}
+[6.169043] (-) TimerEvent: {}
+[6.269793] (-) TimerEvent: {}
+[6.370566] (-) TimerEvent: {}
+[6.471326] (-) TimerEvent: {}
+[6.566734] (volcano_ark_ros) StdoutLine: {'line': b'running egg_info\n'}
+[6.571488] (-) TimerEvent: {}
+[6.572339] (volcano_ark_ros) StdoutLine: {'line': b'writing ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/PKG-INFO\n'}
+[6.573550] (volcano_ark_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/dependency_links.txt\n'}
+[6.574516] (volcano_ark_ros) StdoutLine: {'line': b'writing entry points to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/entry_points.txt\n'}
+[6.575157] (volcano_ark_ros) StdoutLine: {'line': b'writing requirements to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/requires.txt\n'}
+[6.575700] (volcano_ark_ros) StdoutLine: {'line': b'writing top-level names to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/top_level.txt\n'}
+[6.587124] (volcano_ark_ros) StdoutLine: {'line': b"reading manifest file '../../build/volcano_ark_ros/volcano_ark_ros.egg-info/SOURCES.txt'\n"}
+[6.592867] (volcano_ark_ros) StdoutLine: {'line': b"writing manifest file '../../build/volcano_ark_ros/volcano_ark_ros.egg-info/SOURCES.txt'\n"}
+[6.593644] (volcano_ark_ros) StdoutLine: {'line': b'running build\n'}
+[6.594136] (volcano_ark_ros) StdoutLine: {'line': b'running build_py\n'}
+[6.594698] (volcano_ark_ros) StdoutLine: {'line': b'copying volcano_ark_ros/web_interface_node.py -> /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros\n'}
+[6.599227] (volcano_ark_ros) StdoutLine: {'line': b'running install\n'}
+[6.600966] (volcano_ark_ros) StdoutLine: {'line': b'running install_lib\n'}
+[6.605757] (volcano_ark_ros) StdoutLine: {'line': b'copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/web_interface_node.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros\n'}
+[6.611083] (volcano_ark_ros) StdoutLine: {'line': b'byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/web_interface_node.py to web_interface_node.cpython-310.pyc\n'}
+[6.632268] (volcano_ark_ros) StdoutLine: {'line': b'running install_data\n'}
+[6.633147] (volcano_ark_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.642812] (volcano_ark_ros) StdoutLine: {'line': b"removing '/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.644312] (volcano_ark_ros) StdoutLine: {'line': b'Copying ../../build/volcano_ark_ros/volcano_ark_ros.egg-info to /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros-0.0.0-py3.10.egg-info\n'}
+[6.650450] (volcano_ark_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[6.671696] (-) TimerEvent: {}
+[6.772588] (-) TimerEvent: {}
+[6.781393] (volcano_ark_ros) StdoutLine: {'line': b'Installing image_caption_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros\n'}
+[6.782329] (volcano_ark_ros) StdoutLine: {'line': b'Installing image_publisher_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros\n'}
+[6.783023] (volcano_ark_ros) StdoutLine: {'line': b'Installing originman_action_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros\n'}
+[6.783664] (volcano_ark_ros) StdoutLine: {'line': b'Installing text_to_speech_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros\n'}
+[6.784281] (volcano_ark_ros) StdoutLine: {'line': b'Installing web_interface_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros\n'}
+[6.786720] (volcano_ark_ros) StdoutLine: {'line': b"writing list of installed files to '/root/colcon_ws/build/volcano_ark_ros/install.log'\n"}
+[6.872793] (-) TimerEvent: {}
+[6.973797] (-) TimerEvent: {}
+[6.992298] (volcano_ark_ros) CommandEnded: {'returncode': 0}
+[7.077528] (-) TimerEvent: {}
+[7.090873] (volcano_ark_ros) JobEnded: {'identifier': 'volcano_ark_ros', 'rc': 0}
+[7.094578] (-) EventReactorShutdown: {}

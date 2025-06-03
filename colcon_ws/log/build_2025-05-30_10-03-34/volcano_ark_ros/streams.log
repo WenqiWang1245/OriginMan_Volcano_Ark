@@ -1,0 +1,43 @@
+[5.093s] Invoking command in '/root/colcon_ws/src/volcano_ark_ros': PYTHONPATH=/root/colcon_ws/build/volcano_ark_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/volcano_ark_ros build --build-base /root/colcon_ws/build/volcano_ark_ros/build install --record /root/colcon_ws/build/volcano_ark_ros/install.log --single-version-externally-managed install_data
+[6.980s] running egg_info
+[6.984s] writing ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/PKG-INFO
+[6.989s] writing dependency_links to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/dependency_links.txt
+[6.990s] writing entry points to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/entry_points.txt
+[6.991s] writing requirements to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/requires.txt
+[6.992s] writing top-level names to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/top_level.txt
+[7.007s] reading manifest file '../../build/volcano_ark_ros/volcano_ark_ros.egg-info/SOURCES.txt'
+[7.012s] writing manifest file '../../build/volcano_ark_ros/volcano_ark_ros.egg-info/SOURCES.txt'
+[7.013s] running build
+[7.013s] running build_py
+[7.014s] copying volcano_ark_ros/web_interface_node.py -> /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros
+[7.030s] running install
+[7.032s] running install_lib
+[7.036s] copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/text_to_speech_node.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros
+[7.038s] copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/web_interface_node.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros
+[7.039s] copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/image_publisher_node.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros
+[7.039s] copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/__init__.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros
+[7.040s] copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/originman_action_node.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros
+[7.041s] copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/image_caption_node.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros
+[7.044s] byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/text_to_speech_node.py to text_to_speech_node.cpython-310.pyc
+[7.061s] byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/web_interface_node.py to web_interface_node.cpython-310.pyc
+[7.067s]   File "/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/web_interface_node.py", line 358
+[7.068s]     """
+[7.069s]        ^
+[7.069s] SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xed in position 13363: invalid continuation byte
+[7.070s] 
+[7.070s] byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/image_publisher_node.py to image_publisher_node.cpython-310.pyc
+[7.072s] byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/__init__.py to __init__.cpython-310.pyc
+[7.073s] byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/originman_action_node.py to originman_action_node.cpython-310.pyc
+[7.080s] byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/image_caption_node.py to image_caption_node.cpython-310.pyc
+[7.088s] running install_data
+[7.088s] running install_egg_info
+[7.099s] removing '/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[7.101s] Copying ../../build/volcano_ark_ros/volcano_ark_ros.egg-info to /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros-0.0.0-py3.10.egg-info
+[7.105s] running install_scripts
+[7.233s] Installing image_caption_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+[7.233s] Installing image_publisher_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+[7.234s] Installing originman_action_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+[7.234s] Installing text_to_speech_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+[7.235s] Installing web_interface_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+[7.237s] writing list of installed files to '/root/colcon_ws/build/volcano_ark_ros/install.log'
+[7.450s] Invoked command in '/root/colcon_ws/src/volcano_ark_ros' returned '0': PYTHONPATH=/root/colcon_ws/build/volcano_ark_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/volcano_ark_ros build --build-base /root/colcon_ws/build/volcano_ark_ros/build install --record /root/colcon_ws/build/volcano_ark_ros/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+  File "/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/originman_action_node.py", line 99
+    ）
+    ^
+SyntaxError: invalid character '）' (U+FF09)
+

@@ -1,0 +1,8 @@
+source;ros_domain_id.txt
+source;share/volcano_ark_ros/hook/pythonpath.ps1
+source;share/volcano_ark_ros/hook/pythonpath.dsv
+source;share/volcano_ark_ros/hook/pythonpath.sh
+source;ros_domain_id.txt
+source;share/volcano_ark_ros/hook/ament_prefix_path.ps1
+source;share/volcano_ark_ros/hook/ament_prefix_path.dsv
+source;share/volcano_ark_ros/hook/ament_prefix_path.sh

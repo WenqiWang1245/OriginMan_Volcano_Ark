@@ -1,0 +1,41 @@
+running egg_info
+writing ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/dependency_links.txt
+writing entry points to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/entry_points.txt
+writing requirements to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/requires.txt
+writing top-level names to ../../build/volcano_ark_ros/volcano_ark_ros.egg-info/top_level.txt
+reading manifest file '../../build/volcano_ark_ros/volcano_ark_ros.egg-info/SOURCES.txt'
+writing manifest file '../../build/volcano_ark_ros/volcano_ark_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+copying volcano_ark_ros/web_interface_node.py -> /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros
+running install
+running install_lib
+copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/text_to_speech_node.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros
+copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/web_interface_node.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros
+copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/image_publisher_node.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros
+copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/__init__.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros
+copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/originman_action_node.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros
+copying /root/colcon_ws/build/volcano_ark_ros/build/lib/volcano_ark_ros/image_caption_node.py -> /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros
+byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/text_to_speech_node.py to text_to_speech_node.cpython-310.pyc
+byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/web_interface_node.py to web_interface_node.cpython-310.pyc
+  File "/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/web_interface_node.py", line 358
+    """
+       ^
+SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xed in position 13363: invalid continuation byte
+
+byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/image_publisher_node.py to image_publisher_node.cpython-310.pyc
+byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/originman_action_node.py to originman_action_node.cpython-310.pyc
+byte-compiling /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/image_caption_node.py to image_caption_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/volcano_ark_ros/volcano_ark_ros.egg-info to /root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_caption_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+Installing image_publisher_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+Installing originman_action_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+Installing text_to_speech_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+Installing web_interface_node script to /root/colcon_ws/install/volcano_ark_ros/lib/volcano_ark_ros
+writing list of installed files to '/root/colcon_ws/build/volcano_ark_ros/install.log'

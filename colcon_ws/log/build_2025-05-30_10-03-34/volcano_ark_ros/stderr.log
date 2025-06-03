@@ -1,0 +1,5 @@
+  File "/root/colcon_ws/install/volcano_ark_ros/lib/python3.10/site-packages/volcano_ark_ros/web_interface_node.py", line 358
+    """
+       ^
+SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xed in position 13363: invalid continuation byte
+
