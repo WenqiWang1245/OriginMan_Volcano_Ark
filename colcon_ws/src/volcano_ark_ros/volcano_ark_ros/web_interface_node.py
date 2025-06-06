@@ -104,7 +104,7 @@ def call_intent_parsing_llm(user_query):
    对于像 "前进", "后退" 这样的动作，如果用户指定了次数（例如“前进两步”，“后退3次”），你应该在JSON中包含一个 "repetitions" 字段，其值为数字。如果未指定次数，则 "repetitions" 默认为 1。
    机器人能够执行以下物理动作。在生成JSON时，"action_name"字段必须严格使用括号前的英文指令名 (例如 "go_forward", 或对于舞蹈动作使用如 "16", "17" 这样的数字字符串):
 {action_descriptions_for_prompt}
-   当你需要生成 "perform_action" 类型的JSON时，"action_name" 字段必须严格使用上述列表中的英文指令名。 "repetitions" 字段应为整数。
+   当你需要生成 "perform_action" 类型的JSON时，"action_name" 字段必须严格使用上述列表中的英文指令名。 "repetitions" 字段应为整数，并在所有动作结束后自动添加一个"stand": "立正"指令让机器人站好。
 3. "sing_song": 让机器人唱歌。结果应包含 "song_id" 字段，其值为歌曲的编号字符串 (例如 "16", "17", ..., "24")。
    可用的歌曲编号有: {song_ids_for_prompt}。
    如果用户说“唱首歌”或“来一首歌”等没有指定具体歌曲的指令，你必须从可用的歌曲编号中随机选择一个。不要询问用户。
@@ -219,7 +219,7 @@ HTML_TEMPLATE = """
             <button onclick="saveApiKey()">保存 API Key</button>
         </div>
         <div id="chatLog">
-            <div class="message bot-message">你好！我是OriginMan火山引擎助手，已准备就绪。我支持的动作有立正，前进，后退，左移，右移，俯卧撑，仰卧起坐，左转，右转，挥手，鞠躬，下蹲，庆祝，左脚踢，右脚踢，咏春，左勾拳，右勾拳，左侧踢，右侧踢，各种舞蹈，我还会唱歌呢！欢迎和我进行互动！</div>
+            <div class="message bot-message">你好！我是OriginMan火山引擎助手，已准备就绪。我支持的动作有立正，前进，后退，左移，右移，左转，右转，挥手，鞠躬，下蹲，庆祝，左脚踢，右脚踢，咏春，左勾拳，右勾拳，左侧踢，右侧踢，各种舞蹈，我还会唱歌呢！欢迎和我进行互动！</div>
         </div>
         <div class="input-area">
             <textarea id="naturalLanguageInput" placeholder="在此输入指令 (如: '跳个舞', '向前走3步', '唱首歌', '别唱了', '你看到了什么'等)..." rows="1"></textarea>
@@ -448,7 +448,7 @@ def execute_natural_language_command():
                 if action_name in ORIGINMAN_DANCE_ACTIONS_NUMERIC_STR:
                     friendly_display_text_for_action = f"没问题，准备为您表演舞蹈！"
                 else:
-                    friendly_display_text_for_action = f"正在执行..."
+                    friendly_display_text_for_action = f"好的，已收到您的指令！"
                 if primary_text_for_web_display is None: primary_text_for_web_display = friendly_display_text_for_action
                 executed_actions_info_for_web.append({"type": "perform_action", "details": {"action": action_name, "repetitions": repetitions, "display_text": friendly_display_text_for_action, "status": "待执行"}})
                 sequential_execution_plan_for_bg.append({"type": "perform_action_later", "data": {"action_name": action_name, "repetitions": repetitions}})
